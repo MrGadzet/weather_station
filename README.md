@@ -1,1 +1,1 @@
-# weather_station
+# weather_station_esp32
