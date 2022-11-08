@@ -3,5 +3,11 @@ try:
 except:
   import socket
 
-from machine import Pin
 import network
+import esp
+import gc
+
+esp.osdebug(None)
+gc.collect()
+
+

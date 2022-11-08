@@ -45,8 +45,8 @@ while True:
 #    print("Temp. BMP", bmp_t, "*C")
 #    print("Pres. BMP", bmp_p, "hPa")
 #    pwm.duty_u16(duty)
-    print("Wilgotność 1:", "Raw:", mos1, "%", precent_mos1)
-    print("Wilgotność 2:", "Raw:", mos2, "%", precent_mos2)
+    print("Wilgotność 1:", "Raw:", mos1, "|", precent_mos1, "%")
+    print("Wilgotność 2:", "Raw:", mos2, "|", precent_mos2, "%")
     
     def disp_t_p():
         display.fill(0)
